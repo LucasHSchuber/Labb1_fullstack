@@ -1,0 +1,429 @@
+header {
+  background-color: #121212 !important;
+  padding: 3em 5em;
+}
+
+.logo {
+  font-family: "Kadwa", serif;
+  font-size: 1.8em !important;
+  color: #FCF4ED !important;
+  transition: 0.3s ease;
+}
+.logo:hover {
+  color: #f5d9c1 !important;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-collapse .dropdown-menu {
+  background-color: #121212;
+  border: none !important;
+}
+.navbar-collapse .dropdown-menu a:hover {
+  background-color: black;
+}
+.navbar-collapse .dropdown-menu li:hover {
+  background-color: black;
+}
+.navbar-collapse li {
+  padding: 0.5em;
+}
+.navbar-collapse a {
+  color: #d9d9d9;
+}
+.navbar-collapse a:hover {
+  color: #fff;
+}
+
+.wrapper-main h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  font-family: "Raleway", sans-serif;
+}
+.wrapper-main p {
+  font-size: 1.2em;
+  color: #2b2b2b;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper-one {
+  padding: 3em 0 3em 10em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #FCF4ED;
+  height: 30em;
+}
+.wrapper-one h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  font-family: "Raleway", sans-serif;
+}
+.wrapper-one p {
+  font-size: 1.2em;
+  color: #2b2b2b;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper-one img {
+  width: 100%;
+}
+
+.wrapper-two {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  background-color: #121212;
+  height: fit-content;
+  padding: 6em 10em 6em 10em;
+  column-gap: 1em;
+}
+.wrapper-two h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  font-family: "Raleway", sans-serif;
+}
+.wrapper-two p {
+  font-size: 1.2em;
+  color: #2b2b2b;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper-two .grid-two-wrapper-two {
+  padding-bottom: 2em !important;
+  color: #FCF4ED;
+}
+.wrapper-two .grid-one-wrapper-two {
+  padding-bottom: 0 !important;
+}
+.wrapper-two img {
+  width: 75% !important;
+}
+.wrapper-two button {
+  padding: 0.5em 1.3em;
+  background-color: #FCF4ED;
+  color: #121212;
+  border: 0.5px solid #121212;
+  font-weight: 500;
+}
+.wrapper-two button:hover {
+  transition: 0.3s ease;
+  padding: 0.5em 1.3em;
+  background-color: #f5d9c1;
+  border: 0.5px solid #121212;
+}
+
+.wrapper-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #FCF4ED;
+  height: fit-content;
+  padding: 5em 13em 5em 13em;
+  column-gap: 1em;
+  text-align: center;
+  margin: auto;
+}
+.wrapper-three h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  font-family: "Raleway", sans-serif;
+}
+.wrapper-three p {
+  font-size: 1.2em;
+  color: #2b2b2b;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper-bootstrap-form {
+  background-color: #FCF4ED;
+  height: fit-content;
+  padding: 4em 5em 4em 5em;
+}
+.wrapper-bootstrap-form h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  font-family: "Raleway", sans-serif;
+}
+.wrapper-bootstrap-form p {
+  font-size: 1.2em;
+  color: #2b2b2b;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper-bootstrap-form .form-check-input {
+  width: 1em;
+}
+.wrapper-bootstrap-form input {
+  width: 75%;
+  padding: 0.2em;
+}
+.wrapper-bootstrap-form select {
+  padding: 0.2em;
+}
+
+.wrapper-bootstrap-tabell {
+  background-color: #FCF4ED;
+  height: fit-content;
+  padding: 4em 5em 4em 5em;
+}
+
+.wrapper-semantic-form {
+  background-color: #FCF4ED;
+  height: fit-content;
+  padding: 4em 5em 4em 5em;
+}
+.wrapper-semantic-form h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  font-family: "Raleway", sans-serif;
+}
+.wrapper-semantic-form p {
+  font-size: 1.2em;
+  color: #2b2b2b;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper-semantic-form .form-check-input {
+  width: 1em;
+}
+.wrapper-semantic-form input {
+  width: 75%;
+  padding: 0.2em;
+}
+.wrapper-semantic-form select {
+  padding: 0.2em;
+}
+
+.wrapper-semantic-tabell {
+  background-color: #FCF4ED;
+  height: fit-content;
+  padding: 4em 5em 4em 5em;
+}
+
+.rounded-img, .rounded-img:hover {
+  background-color: #fff;
+  border: 0.5px solid #FCF4ED;
+  height: 7em;
+  width: 8em;
+  border-radius: 10%;
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: 1.2em;
+  transition: 0.3s ease;
+}
+.rounded-img:hover {
+  background-color: #FCF4ED;
+  padding: 1.4em;
+}
+
+.wrapper-public {
+  padding: 3em 3em 3em 10em;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #FCF4ED;
+  height: fit-content;
+}
+.wrapper-public h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+  font-family: "Raleway", sans-serif;
+}
+.wrapper-public p {
+  font-size: 1.2em;
+  color: #2b2b2b;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  height: fit-content;
+  background-color: #121212 !important;
+  margin: 0 auto;
+  color: rgb(236, 236, 236);
+}
+footer .footer-top {
+  margin: auto;
+  padding: 5em 5em 6em 5em;
+  width: 75%;
+  text-align: center;
+}
+footer h1 {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    padding: 2em 2em;
+  }
+  .navbar-collapse .dropdown-menu {
+    background-color: #121212;
+    border: none !important;
+  }
+  .navbar-collapse .dropdown-menu a:hover {
+    background-color: #121212;
+  }
+  .navbar-collapse .dropdown-menu li:hover {
+    background-color: #121212;
+  }
+  .wrapper-one {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #FCF4ED;
+    height: 40em;
+    padding: 2em 2em 2em 2em;
+    text-align: center;
+    margin: auto;
+  }
+  .wrapper-one h1 {
+    font-size: 2em;
+  }
+  .wrapper-one p {
+    font-size: 1.1em;
+  }
+  .wrapper-one img {
+    width: 75% !important;
+  }
+  .wrapper-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #121212;
+    height: fit-content;
+    padding: 3em 2em 3em 2em;
+    column-gap: 2em;
+    text-align: center;
+    margin: auto;
+  }
+  .wrapper-two img {
+    width: 75% !important;
+  }
+  .wrapper-two h1 {
+    font-size: 2em;
+  }
+  .wrapper-two p {
+    font-size: 1.1em;
+  }
+  .wrapper-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FCF4ED;
+    height: fit-content;
+    padding: 3em 2em 3em 2em;
+    text-align: center;
+    margin: auto;
+  }
+  .wrapper-three h1 {
+    font-size: 2em;
+  }
+  .wrapper-three p {
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 771px) {
+  .wrapper-one {
+    height: 35em;
+  }
+  .wrapper-one img {
+    width: 50%;
+  }
+  .wrapper-two {
+    height: 35em;
+    column-gap: 2em;
+  }
+  .wrapper-two img {
+    width: 50%;
+  }
+  .wrapper-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FCF4ED;
+    height: fit-content;
+    padding: 3em 2em 3em 2em;
+    text-align: center;
+    margin: auto;
+  }
+  .wrapper-three h1 {
+    font-size: 2em;
+  }
+  .wrapper-three p {
+    font-size: 1.1em;
+  }
+  .wrapper-testapp {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #FCF4ED;
+    height: fit-content;
+    padding: 3em 2em 3em 2em;
+    column-gap: 2em;
+  }
+  .wrapper-testapp h1 {
+    font-size: 2em;
+  }
+  .wrapper-testapp p {
+    font-size: 1.1em;
+  }
+  .wrapper-bootstrap-form {
+    padding: 3em 2em 3em 2em;
+    column-gap: 2em;
+  }
+  .wrapper-bootstrap-form h1 {
+    font-size: 2em;
+  }
+  .wrapper-bootstrap-form p {
+    font-size: 1.1em;
+  }
+  .wrapper-bootstrap-tabell {
+    padding: 3em 2em 3em 2em;
+    column-gap: 2em;
+  }
+  .wrapper-bootstrap-tabell h1 {
+    font-size: 2em;
+  }
+  .wrapper-bootstrap-tabell p {
+    font-size: 1.1em;
+  }
+  .wrapper-semantic-form {
+    padding: 3em 2em 3em 2em;
+    column-gap: 2em;
+  }
+  .wrapper-semantic-form h1 {
+    font-size: 2em;
+  }
+  .wrapper-semantic-form p {
+    font-size: 1.1em;
+  }
+  .wrapper-semantic-tabell {
+    padding: 3em 2em 3em 2em;
+    column-gap: 2em;
+  }
+  .wrapper-semantic-tabell h1 {
+    font-size: 2em;
+  }
+  .wrapper-semantic-tabell p {
+    font-size: 1.1em;
+  }
+  .wrapper-public {
+    padding: 3em 2em 3em 2em;
+    column-gap: 2em;
+  }
+  .wrapper-public h1 {
+    font-size: 2em;
+  }
+  .wrapper-public p {
+    font-size: 1.1em;
+  }
+  .rounded-img, .rounded-img:hover {
+    background-color: #fff;
+    border: 0.5px solid #FCF4ED;
+    height: 5em;
+    width: 5.5em;
+    border-radius: 10%;
+    padding: 0.9em;
+  }
+  .rounded-img:hover {
+    padding: 1em;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .wrapper-one img {
+    width: 75%;
+    float: right;
+  }
+}
+/*# sourceMappingURL=maps/main.css.map */
